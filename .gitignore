@@ -1,0 +1,65 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# --------------------------
+# PyCharm / VS Code
+# --------------------------
+.vscode/
+.idea/
+
+# --------------------------
+# OS generated
+# --------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------
+# Python packages
+# --------------------------
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# --------------------------
+# Logs
+# --------------------------
+*.log
+
+# --------------------------
+# SQLite / database files (if any)
+# --------------------------
+*.db
+*.sqlite3
+
+# --------------------------
+# PyInstaller / executables (if you ever package your app)
+# --------------------------
+dist/
+build/
+*.spec
+
+# --------------------------
+# Coverage / testing
+# --------------------------
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/

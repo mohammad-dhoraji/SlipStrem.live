@@ -1,0 +1,24 @@
+f1_app/
+│── main.py                 # Entry point
+│
+├── config/
+│   └── settings.py         # API keys, constants, configs
+│   └── Colors.py         # team colors dict
+│
+├── services/
+│   ├── results.py      # Fetch live race data
+│   ├── schedule.py         # Upcoming race schedule
+│   ├── d_standings.py        # Driver & constructor standings
+│   ├── c_standings.py        # Team & driver details
+│   └── stats.py            # Extra stats (pit stops, laps)
+│
+├── utils/
+│   ├── api_helper.py       # Generic API call helpers
+│   └── formatter.py        # Format raw API responses
+│
+└── ui/
+    ├── main_window.py      # PyQt main window
+    ├── dashboard.py        # Live race dashboard widget
+    ├── standings_tab.py    # Standings tab
+    ├── schedule_tab.py     # Upcoming races tab
+    └── team_tab.py         # Teams & drivers tab
